@@ -74,6 +74,14 @@ footer {
   padding-top: 20px;
 }
 
+.adv {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px
+}
+
+
+
 .container-op {
   max-width: 800px;
   margin: 0 auto;
@@ -128,4 +136,11 @@ footer {
   height: 300px;
  margin: 0 auto;
  margin-bottom: 20px;
+}
+
+.section-adv {
+  width: 100%;
+  background-color: darkred;
+  height: 200px;
+  margin: 0 auto;
 }
