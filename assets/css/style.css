@@ -37,6 +37,7 @@ footer {
 
 
 .jumbo {
+  color: black;
   background-color: rgb(119, 151, 147);
   width: 100%;
   height: auto;
@@ -67,7 +68,7 @@ footer {
 }
 
 .business-plan {
-  color: white;
+  color: black;
   background-color: rgb(166, 137, 137);
   max-width: 1200px;
   height: auto;
@@ -131,7 +132,7 @@ footer {
 }
 
 .partner-box {
-  color: white;
+  color: black;
   width: 100%;
   background-color: darkseagreen;
   height: auto;
@@ -155,7 +156,7 @@ footer {
 }
 
 .section-adv {
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   width: 100%;
   background-color: darkred;
   height: 200px;
@@ -221,6 +222,10 @@ header a {
 
 }
 
+.px-plus {
+  padding-left: 200px;
+}
+
 .px {
   padding-left: 50px;
 }
@@ -251,5 +256,22 @@ h1 {
 }
 
 .col-33 img {
-  width: 100%;
+  width: 50%;
+}
+
+.blue-button {
+  width: 10%;
+  background-color: rgb(90, 152, 163);
+  color: white;
+  padding: 5px 0px;
+ text-align: center;
+ display: inline;
+ text-decoration: none;
+}
+
+.text-box1 {
+width: 80%;
+color: white;
+font-size: 15px;
+padding-bottom: 50px;
 }
