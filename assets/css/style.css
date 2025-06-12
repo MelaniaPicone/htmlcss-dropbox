@@ -74,6 +74,13 @@ footer {
   padding-top: 20px;
 }
 
+.container-op {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
 .col-50 {
   width: 50%;
   height: 300px;
@@ -92,7 +99,7 @@ footer {
 
 }
 
-header .row {
+ .row {
   flex-wrap: wrap;
 }
 
@@ -108,3 +115,17 @@ header .row {
   padding-bottom: 30px;
 }
 
+.business-op {
+  width: 100%;
+  background-color: coral;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.col-33 {
+  width: 250px;
+  height: 300px;
+ margin: 0 auto;
+ margin-bottom: 20px;
+}
