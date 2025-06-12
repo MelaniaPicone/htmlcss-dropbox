@@ -46,7 +46,10 @@ footer {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
+
+
 
 .justify-content-center {
   justify-content: center;
@@ -54,28 +57,28 @@ footer {
 
 .jumbo {
   background-color: indianred;
-  max-width: 100%;
+  max-width: 1200px;
   height: 400px;
   margin: 0 auto;
 }
 
 .business-plan {
   background-color: rgb(166, 137, 137);
-  max-width: 100%;
-  height: 400px;
+  max-width: 1200px;
+  height: auto;
   margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 .container {
-  width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
-  display: flex;
   gap: 30px;
   padding-top: 20px;
 }
 
 .adv {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px
 }
@@ -83,7 +86,7 @@ footer {
 
 
 .container-op {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -102,14 +105,18 @@ footer {
 
 
 .col-bus {
-  width: 200px;
+  width: 30%;
+  height: 500px;
+ margin: 0 auto;
+ margin-bottom: 30px;
+}
+
+.business-plan .col-bus-long {
+  width: 70%;
   height: 300px;
-
+ margin: 0 auto;
 }
 
- .row {
-  flex-wrap: wrap;
-}
 
 .title h2 {
   padding-bottom: 30px;
@@ -132,7 +139,7 @@ footer {
 }
 
 .col-33 {
-  width: 250px;
+  width: 30%;
   height: 300px;
  margin: 0 auto;
  margin-bottom: 20px;
