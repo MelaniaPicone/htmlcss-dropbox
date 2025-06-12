@@ -13,17 +13,17 @@ header {
 }
 
 main {
-max-width: 100%;
-height: 1000px;
-background-color: cornflowerblue;
-padding-top: 20px;
+  max-width: 100%;
+  height: auto;
+  background-color: cornflowerblue;
+  padding-top: 20px;
 
 }
 
 footer {
-max-width: 100%;
-height: 500px;
-background-color: black;
+  max-width: 100%;
+  height: 500px;
+  background-color: black;
 
 }
 
@@ -53,24 +53,58 @@ background-color: black;
 }
 
 .jumbo {
-background-color: indianred;
-max-width: 100%;
-height: 400px;
-margin: 0 auto;
+  background-color: indianred;
+  max-width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.business-plan {
+  background-color: rgb(166, 137, 137);
+  max-width: 100%;
+  height: 400px;
+  margin: 0 auto;
 }
 
 .container {
-width: 800px;
-margin: 0 auto;
-display: flex;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
 }
 
 .col-50 {
-width: 50%;
-height: 300px;
+  width: 50%;
+  height: 300px;
 
 }
 
 .title {
-  
+  padding-top: 10px;
+  text-align: center;
 }
+
+
+.col-bus {
+  width: 200px;
+  height: 300px;
+
+}
+
+header .row {
+  flex-wrap: wrap;
+}
+
+.title h2 {
+  padding-bottom: 30px;
+}
+
+.partner-box {
+  width: 100%;
+  background-color: darkseagreen;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
