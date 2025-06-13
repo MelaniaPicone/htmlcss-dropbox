@@ -106,6 +106,11 @@ footer {
 
 }
 
+.col-50b {
+  width: 40%;
+  margin: 0 auto;
+}
+
 
 .col-bus {
   width: 30%;
@@ -134,15 +139,13 @@ margin-left: 800px;
 .partner-box {
   color: black;
   width: 100%;
-  background-color: darkseagreen;
   height: auto;
+  padding-bottom: 10px;
   margin: 0 auto;
-  padding-bottom: 30px;
 }
 
 .business-op {
   width: 100%;
-  background-color: coral;
   height: auto;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -150,16 +153,13 @@ margin-left: 800px;
 
 .col-33 {
   width: 30%;
-  height: 440px;
+  height: auto;
   margin: 0 auto;
-  margin-bottom: 20px;
-}
+padding: 20px;}
 
 .section-adv {
   color: rgb(0, 0, 0);
   width: 100%;
-  background-color: darkred;
-  height: 200px;
   margin: 0 auto;
 }
 
@@ -200,7 +200,6 @@ margin-left: 800px;
 
 .title {
   padding-top: 10px;
-  text-align: center;
 }
 
 
@@ -244,7 +243,17 @@ h3 {
   font-size: 13px;
 }
 
+h4 {
+font-size: 25px;
+padding-bottom: 10px;
+}
+
 .business-plan p > a {
+  color: purple;
+  text-decoration: underline;
+}
+
+.section-adv p > a {
   color: purple;
   text-decoration: underline;
 }
@@ -291,16 +300,21 @@ header a {
 vertical-align: middle;}
 
 .col-50 img {
+  width: 120%;
+}
+
+.col-50b img {
   width: 100%;
 }
 
 .col-33 img {
-  width: 50%;
+  width: 100%;
 }
 
 .blue-button {
    background-color: #0061FF;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .blue-botton-head {
@@ -331,4 +345,19 @@ color: white;
 .business-box span{
   font-size: 12px;
   padding-right: 50px;
+}
+
+
+.text-box2 {
+width: 80%;
+padding: 50px 50px;
+
+}
+
+.white-button {
+  width: 40%;
+text-align: center;
+color: grey;
+border: 1px solid grey;
+padding: 10px;
 }
