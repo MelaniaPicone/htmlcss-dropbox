@@ -155,18 +155,18 @@ margin-left: 800px;
   width: 30%;
   height: auto;
   margin: 0 auto;
-padding: 20px;}
+}
 
 .section-adv {
   color: rgb(0, 0, 0);
   width: 100%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 
 .nav-foot {
   color: white;
-  background-color: rgb(166, 137, 137);
   max-width: 1200px;
   height: auto;
   margin: 0 auto;
@@ -175,9 +175,9 @@ padding: 20px;}
 
 .col-20 {
   width: 20%;
-  height: 300px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .col-20 li {
@@ -253,7 +253,7 @@ padding-bottom: 10px;
   text-decoration: underline;
 }
 
-.section-adv p > a {
+.section-adv a {
   color: purple;
   text-decoration: underline;
 }
