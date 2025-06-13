@@ -7,12 +7,11 @@
 /* commons */
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   max-width: 100%;
-  color: aquamarine;
   height: auto;
   z-index: 1;
   padding: 5px;
@@ -50,13 +49,9 @@ footer {
   width: calc(100% / 3);
   height: auto;
   margin: 0 auto;
-  margin-bottom: 10px;
   padding: 10px;
 }
 
-.bg-orange {
-  background-color: orange;
-}
 
 .border-black {
   border: 2px solid black;
@@ -69,7 +64,6 @@ footer {
 
 .business-plan {
   color: black;
-  background-color: rgb(166, 137, 137);
   max-width: 1200px;
   height: auto;
   margin: 0 auto;
@@ -115,9 +109,10 @@ footer {
 
 .col-bus {
   width: 30%;
-  height: 500px;
+  height: auto;
   margin: 0 auto;
   margin-bottom: 30px;
+  line-height: 22px;
 }
 
 
@@ -126,10 +121,15 @@ footer {
 }
 
 .business-plan .col-bus-long {
-  width: 70%;
-  height: 300px;
+  width: 97%;
+  height: 220px;
   margin: 0 auto;
 }
+
+.blue-box-right {
+margin-left: 800px;
+}
+
 
 .partner-box {
   color: black;
@@ -217,7 +217,6 @@ footer {
 a {
   text-decoration: none;
   color: white;
-
 }
 
 .px-plus {
@@ -231,32 +230,68 @@ a {
 h1 {
   font-size: 50px;
   font-weight: bold;
+ margin-left: 470px;
   padding-bottom: 20px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+.business-plan p > a {
+  color: purple;
+  text-decoration: underline;
 }
 
 .stripe {
   width: auto;
   height: auto;
-  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.subscription {
+  padding: 60px;
+}
+
+.blackcolor {
+  color: black;
 }
 
 header a {
-  color: black;
   text-decoration: none;
-  font-size: 15px;
-  padding: 10px;
-font-weight: bold;}
+  font-size: 12px;
+  padding: 20px;}
 
+
+  hr {
+ color: grey;
+ width: 30%;
+  }
+
+  .color-blue {
+    color: #3393DF
+  }
+
+  .gray {
+    color: rgb(152, 147, 147);
+  }
 
 /* content */
 
 .col-30 img {
-  width: 20%;
-  vertical-align: middle;
-}
+  width: 30%;
+vertical-align: middle;}
 
 .col-50 img {
-  width: 120%;
+  width: 100%;
 }
 
 .col-33 img {
@@ -264,19 +299,36 @@ font-weight: bold;}
 }
 
 .blue-button {
-  width: auto;
    background-color: #0061FF;
-  color: white;
-  padding: 5px 10px;
-  text-align: center;
-  display: inline;
   text-decoration: none;
 }
 
+.blue-botton-head {
+  width: 10px;
+  color: rgb(255, 255, 255);
+ display: inline;
+ padding: 5px 10px;
+}
+
+.blue-botton-main {
+  width: 220px;
+color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
 
 .text-box1 {
-  width: 80%;
-  color: white;
+  width: 70%;
+  color: rgb(0, 0, 0);
   font-size: 15px;
-  padding-bottom: 50px;
+}
+
+.jumbo i {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.business-box span{
+  font-size: 12px;
+  padding-right: 50px;
 }
