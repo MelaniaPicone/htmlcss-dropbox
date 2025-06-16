@@ -15,7 +15,6 @@ header {
   height: auto;
   z-index: 1;
   padding: 5px;
-
 }
 
 main {
@@ -49,7 +48,7 @@ footer {
   width: calc(100% / 3);
   height: auto;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 
@@ -294,7 +293,7 @@ hr {
 /* content */
 
 .col-30 img {
-  width: 30%;
+  width: 20%;
   vertical-align: middle;
 }
 
