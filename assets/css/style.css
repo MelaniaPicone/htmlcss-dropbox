@@ -54,7 +54,7 @@ footer {
 
 
 .border-black {
-  border: 2px solid black;
+  border: 2px solid rgb(150, 149, 149);
 }
 
 .row {
@@ -132,7 +132,7 @@ footer {
 }
 
 .blue-box-right {
-margin-left: 800px;
+  margin-left: 800px;
 }
 
 
@@ -168,7 +168,6 @@ margin-left: 800px;
 .nav-foot {
   color: white;
   max-width: 1200px;
-  height: auto;
   margin: 0 auto;
   padding-bottom: 30px;
 }
@@ -199,13 +198,11 @@ margin-left: 800px;
 
 
 .title {
+  text-align: center;
   padding-top: 10px;
 }
 
 
-.title h2 {
-  padding-bottom: 30px;
-}
 
 .span {
   color: white;
@@ -229,7 +226,7 @@ a {
 h1 {
   font-size: 50px;
   font-weight: bold;
- margin-left: 470px;
+  margin-left: 470px;
   padding-bottom: 20px;
   text-align: justify;
 }
@@ -244,11 +241,11 @@ h3 {
 }
 
 h4 {
-font-size: 25px;
-padding-bottom: 10px;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
-.business-plan p > a {
+.business-plan p>a {
   color: purple;
   text-decoration: underline;
 }
@@ -263,7 +260,7 @@ padding-bottom: 10px;
   height: auto;
   text-align: center;
   padding: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(127, 125, 125);
 }
 
 .subscription {
@@ -277,27 +274,29 @@ padding-bottom: 10px;
 header a {
   text-decoration: none;
   font-size: 12px;
-  padding: 20px;}
+  padding: 20px;
+}
 
 
-  hr {
- color: grey;
- width: 30%;
-  }
+hr {
+  color: grey;
+  width: 30%;
+}
 
-  .color-blue {
-    color: #3393DF
-  }
+.color-blue {
+  color: #3393DF
+}
 
-  .gray {
-    color: rgb(152, 147, 147);
-  }
+.gray {
+  color: rgb(152, 147, 147);
+}
 
 /* content */
 
 .col-30 img {
   width: 30%;
-vertical-align: middle;}
+  vertical-align: middle;
+}
 
 .col-50 img {
   width: 120%;
@@ -312,7 +311,7 @@ vertical-align: middle;}
 }
 
 .blue-button {
-   background-color: #0061FF;
+  background-color: #0061FF;
   text-decoration: none;
   font-size: 15px;
 }
@@ -320,13 +319,13 @@ vertical-align: middle;}
 .blue-botton-head {
   width: 10px;
   color: rgb(255, 255, 255);
- display: inline;
- padding: 5px 10px;
+  display: inline;
+  padding: 5px 10px;
 }
 
 .blue-botton-main {
   width: 220px;
-color: white;
+  color: white;
   padding: 5px 10px;
   text-align: center;
 }
@@ -342,22 +341,36 @@ color: white;
   font-size: 30px;
 }
 
-.business-box span{
+.business-box span {
   font-size: 12px;
   padding-right: 50px;
 }
 
 
 .text-box2 {
-width: 80%;
-padding: 50px 50px;
+  width: 80%;
+  padding: 50px 50px;
 
 }
 
 .white-button {
   width: 40%;
-text-align: center;
-color: grey;
-border: 1px solid grey;
-padding: 10px;
+  text-align: center;
+  color: grey;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.col-bus:hover,
+.col-bus-long:hover {
+  background-color: #B4D0E6;
+}
+
+.container-head a:hover {
+  font-weight: bold;
+}
+
+.col-20 h4:hover {
+
+  color: #B4D0E6;
 }
